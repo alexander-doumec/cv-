@@ -9,14 +9,15 @@
 
     <body>
         <header>
-            <div class="profile"></div>
+            <div class="profile">
                 <h1> Doumec Alexander </h1>
                 <p> Developpeur Web </p>
                 <img src="Assets/Picture/phot.jpg" alt="Photo de Doumec">
             </div>
         </header>
         <main>
-
+            <div class="conteneur">
+            <div class="sidebar">
                 <section id="Information">
                 <h2>Informations</h2>
                 </section>
@@ -34,8 +35,9 @@
                 <section id="Loisirs">
                 <h1>Loisirs</h1>
                 </section>
+            </div>
 
-            <section id="Expériences Professionels">
+            <section id="professional">
                 <h1>Expériences Professionnels</h1>
                 <div id="Plateforme">
                     <h2>La Plateforme</h2>
@@ -53,8 +55,8 @@
                     <h2>Moonroof</h2>
                     <p>Serveur et Barman</p>
                 </div>
-
             </section>
+            
 
             <section id="Formations">
                 <h1>Formations</h1>
@@ -69,7 +71,7 @@
                 </div>
 
             </section>
-
+            </div>
             
         </main>
 
