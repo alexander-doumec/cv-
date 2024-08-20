@@ -4,16 +4,37 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Doumec Alexander</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Assets/Css/style.css">
     </head>
 
     <body>
         <header>
-            <img src="Assets/Picture/phot.jpg" alt="Photo de Doumec">
-            <h1> Doumec Alexander </h1>
-            <p> Developpeur Web </p>
+            <div class="profile"></div>
+                <h1> Doumec Alexander </h1>
+                <p> Developpeur Web </p>
+                <img src="Assets/Picture/phot.jpg" alt="Photo de Doumec">
+            </div>
         </header>
         <main>
+
+                <section id="Information">
+                <h2>Informations</h2>
+                </section>
+
+                <section id="Atouts">
+                <h1>Atouts</h1>
+
+                </section>
+
+                <section id="Langues">
+                <h1>Langues</h1>
+
+                </section>
+
+                <section id="Loisirs">
+                <h1>Loisirs</h1>
+                </section>
+
             <section id="Expériences Professionels">
                 <h1>Expériences Professionnels</h1>
                 <div id="Plateforme">
@@ -49,25 +70,12 @@
 
             </section>
 
-            <section id="Information">
-                <h1>Informations</h1>
-                
-
-            </section>
-
-            <section id="Atouts">
-
-            </section>
-
-            <section id="Langues">
-
-            </section>
-
-            <section id="Loisirs">
-
-            </section>
+            
         </main>
+
         <footer>
+
+        <p>footer</p>
 
         </footer>
     </body>
