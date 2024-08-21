@@ -1,0 +1,72 @@
+@media print {
+    /* Réduire les marges de la page pour maximiser l'espace */
+    @page {
+        margin: 0.5cm;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 9px; /* Réduire la taille de la police */
+        line-height: 0.9; /* Réduire l'interligne */
+        color: #000;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        background-color: #198754;
+        color: white;
+        
+    }
+
+    .content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        
+    }
+
+    header img {
+        width: 90px; /* Réduire la taille de l'image pour économiser de l'espace */
+        height: auto;
+        margin-right: 10px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    h1 {
+        font-size: 16px; /* Réduire la taille des titres */
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    p, li {
+        margin: 2px 0; /* Réduire l'espacement entre les éléments */
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    /* Ajuster la taille des sections pour qu'elles tiennent mieux */
+    section {
+        margin-bottom: 0px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    /* Forcer le contenu à s'ajuster sur une page */
+    .container {
+        max-width: 100%;
+    }
+}

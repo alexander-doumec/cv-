@@ -7,6 +7,7 @@
     <title>Doumec Alexander</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Assets/Css/style.css">
+    <link rel="stylesheet" href="Assets/Css/print.css">
 </head>
 
 <body>
@@ -17,11 +18,13 @@
                     <img src="Assets/Picture/phot.jpg" alt="Photo de Doumec Alexander"
                         class="img-fluid rounded-circle mb-3">
                 </div>
+                <div class="content">
                 <div class="col-md-8">
                     <h1>Doumec Alexander</h1>
                     <p class="lead">Technicien Support Informatique</p>
                 </div>
             </div>
+        </div>
         </div>
     </header>
 
@@ -49,7 +52,7 @@
                     <li>Programmation avec Python (POO)</li>
                 </ul>
             </div>
-            
+
         </section>
 
         <section id="formations" class="mb-5">
@@ -59,7 +62,7 @@
                 <p class="text-muted">Septembre 2023 - Présent, Marseille</p>
                 <p>Pédagogie par projet sur la résolution de problématiques concrètes en autonomie.</p>
             </div>
-            
+
         </section>
 
         <section id="atouts" class="mb-5">
@@ -89,13 +92,15 @@
                 <li>Chasse sous-marine</li>
                 <li>Musculation</li>
                 <li>Randonnées</li>
-                <li>Voyages</li>
             </ul>
         </section>
     </main>
 
     <footer class="bg-dark text-white text-center py-3">
-        <?php include ("includes/_footer.php"); ?>
+        <div class="container">
+            <button onclick="window.print()" class="btn btn-primary"> Imprimer le CV</button>
+            <?php include("includes/_footer.php"); ?>
+        </div>
     </footer>
 
 </body>
