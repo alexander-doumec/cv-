@@ -13,13 +13,13 @@
 <body>
     <header class="bg-success text-white text-center py-4">
         <div class="container">
-            <div class="row">
+            <div class="content">
                 <div class="col-md-4">
                     <img src="Assets/Picture/phot.jpg" alt="Photo de Doumec Alexander"
                         class="img-fluid rounded-circle mb-3">
                 </div>
                 <div class="content">
-                    <div class="col-md-8">
+                    <div class="subtitle">
                         <h1>Doumec Alexander</h1>
                         <p class="lead">Technicien Support Informatique</p>
                     </div>
@@ -50,7 +50,10 @@
                     <li>Assemblage et démontage d'ordinateurs</li>
                     <li>Programmation en HTML/CSS</li>
                     <li>Programmation avec Python (POO)</li>
+                    <li>Configuration serveur FTP/DNS/DHCP</li>
+
                 </ul>
+
             </div>
 
         </section>
@@ -61,6 +64,19 @@
                 <h3 class="h5">Bachelor IT - La Plateforme</h3>
                 <p class="text-muted">Septembre 2023 - Présent, Marseille</p>
                 <p>Pédagogie par projet sur la résolution de problématiques concrètes en autonomie.</p>
+            </div>
+            <div class="mb-3">
+                <h3 class="h5">Developpeur web Flutter</h3>
+                <p class="text-muted">Juillet 2020 - Juillet 2021, Marseille</p>
+                <p>Formations à distance, utilisation de framework pour le developpement d'application mobiles et web</p>
+
+
+                <div class="mb-3">
+                    <h3 class="h5">Lycée Lyautey de Casablanca</h3>
+                    <p class="text-muted">Septembre 2017 à Juillet 2018, Casablanca, Maroc</p>
+                    <p>Baccaleauréat Science et Technologie du Management, spécialité Ressources Humaines et Communication</p>
+                </div>
+
             </div>
 
         </section>
