@@ -19,12 +19,12 @@
                         class="img-fluid rounded-circle mb-3">
                 </div>
                 <div class="content">
-                <div class="col-md-8">
-                    <h1>Doumec Alexander</h1>
-                    <p class="lead">Technicien Support Informatique</p>
+                    <div class="col-md-8">
+                        <h1>Doumec Alexander</h1>
+                        <p class="lead">Technicien Support Informatique</p>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </header>
 
